@@ -1,8 +1,14 @@
 import logo from '../assets/logo.png'
 
-const Navbar = () => {
+
+const Navbar = ({coins}) => {
+    
+   
+
+
+
     return (
-        <div className="flex flex-col md:flex-row md:justify-between items-center space-y-5 mt-2">
+        <div className="container mx-auto flex flex-col md:flex-row md:justify-between items-center space-y-5 ">
             <div>
                 <img className='mt-2' src={logo} alt="" />
             </div>
@@ -13,7 +19,8 @@ const Navbar = () => {
                 <li>Teams</li>
                 <li>Schedules</li>
             </ul>
-               <button className='btn sm:mr-5 mt-3 sm:mt-0'>Coin <i className="fa-brands fa-bitcoin text-orange-600 text-2xl"></i></button>
+               <button className='btn sm:mr-5 mt-3 sm:mt-0'> {coins} Coins <i className="fa-brands fa-bitcoin text-orange-600 text-2xl"></i></button>
+               <p> </p>
             </div>
         </div>
     );

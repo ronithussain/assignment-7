@@ -1,7 +1,13 @@
 import bg from '../assets/bg-shadow.png'
 import banner from '../assets/banner-main.png'
 import '../index.css'
-const Banner = () => {
+
+const Banner = ({incrementCoins}) => {
+    
+
+
+
+
     return (
         <div className="bg-cover bg-no-repeat rounded-xl md:w-full h-full md:h-[32.5rem] mt-8 py-16" style={{
             backgroundImage: `url(${bg})`,
@@ -16,7 +22,10 @@ const Banner = () => {
                 <p className="text-gray-400 inter  text-xl sm:text-2xl">Beyond Boundaries Beyond Limits</p>
             </div>
             <div className="flex justify-center mt-4 ">
-                <button className="btn boxShadow border-none text-white text-xl font-semibold">Claim Free Credit</button>
+                <div className='banner-btn p-1 rounded-xl'>
+                <button onClick={incrementCoins} className="bg-[#E7FE29] px-8 py-1 rounded-xl text-[#131313] text-xl font-semibold">Claim Free Credit</button>
+               
+                </div>
             </div>
 
         </div>

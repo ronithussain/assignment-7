@@ -11,15 +11,11 @@
 .inter {
     font-family: "Inter", sans-serif;
 }
-
-.boxShadow {
-    box-sizing: border-box;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 16px;
-    background: url(2);
-    background: rgba(8, 133, 116, 0.384);
+.banner-btn {
+    border: 2px solid #E7FE29;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(9px);
 }
-
 .subscribe {
     box-shadow: inset 8px 44px 50px 20px rgba(211, 156, 5, 0.863);
 }
