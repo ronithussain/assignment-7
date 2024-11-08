@@ -9,7 +9,7 @@ const Banner = ({incrementCoins}) => {
 
 
     return (
-        <div className="bg-cover bg-no-repeat rounded-xl md:w-full h-full md:h-[32.5rem] mt-8 py-16" style={{
+        <div className="bg-cover bg-no-repeat rounded-xl md:w-full h-full md:h-[32.5rem] mt- py-16" style={{
             backgroundImage: `url(${bg})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',

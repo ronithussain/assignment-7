@@ -1,8 +1,21 @@
-# React + Vite
+## A beautiful README.md File
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- 1 Project name. Cricket Team
+## A brief description: 
+The Cricket Team Selection App is an interactive platform for selecting cricket players within a set budget. Designed to mirror a fantasy team selection experience, the app includes player details and allows users to manage their budget for strategic player choices
+## Technologies Used:
+1. ReactJS
+2. JSON for player data
+3. CSS (styled components or modules)
+4. React-Toastify for notifications
 
-Currently, two official plugins are available:
+## 3 key features of your project.: 
+1. **Dynamic Budget Management:**
+Users start with a specific budget, which decreases as players are selected. If funds are insufficient, users are notified.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+2. **Toggling Player View:**
+Seamlessly toggle between "Available" and "Selected" players with clear indicators for how many have been chosen.
+3. **Responsive Design:**
+A Figma-inspired, responsive layout with sections like Navbar, Banner, Player Cards, Newsletter, and Footer.
+

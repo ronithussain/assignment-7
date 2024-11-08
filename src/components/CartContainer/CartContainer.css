@@ -1,0 +1,20 @@
+.active{
+    background: #E7FE29;
+    color: #131313;
+}
+.button{
+    padding: 5px 15px ;
+    border: 1px solid lightslategray;
+    cursor: pointer;
+    padding: 15px 40px;
+    font-weight: 600;
+    
+}
+.bt{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.btr{
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}

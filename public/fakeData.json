@@ -1,0 +1,68 @@
+[
+    {
+        "playerId": 1,
+        "name": "Virat Kohli",
+        "country": "India",
+        "image": "https://i.ibb.co.com/Mgw9b2t/d1de85120289423-Y3-Jvc-Cw4-Nzcs-Njg2-LDQx-Miwx-MDI.jpg",
+        "role": "Batsman",
+        "battingOrBowling": "Batting",
+        "price": 150000,
+        "leftHandBat": false,
+        "ratings": 4.8
+    },
+    {
+        "playerId": 2,
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "image": "https://i.ibb.co.com/Mgw9b2t/d1de85120289423-Y3-Jvc-Cw4-Nzcs-Njg2-LDQx-Miwx-MDI.jpg",
+        "role": "Batsman",
+        "battingOrBowling": "Batting",
+        "price": 130000,
+        "leftHandBat": false,
+        "ratings": 4.8
+    },
+    {
+        "playerId": 3,
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/Mgw9b2t/d1de85120289423-Y3-Jvc-Cw4-Nzcs-Njg2-LDQx-Miwx-MDI.jpg",
+        "role": "Bowler",
+        "battingOrBowling": "Bowling",
+        "price": 110000,
+        "leftHandBat": false,
+        "ratings": 4.8
+    },
+    {
+        "playerId": 4,
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "image": "https://i.ibb.co.com/Mgw9b2t/d1de85120289423-Y3-Jvc-Cw4-Nzcs-Njg2-LDQx-Miwx-MDI.jpg",
+        "role": "Bowler",
+        "battingOrBowling": "Bowling",
+        "price": 120000,
+        "leftHandBat": false,
+        "ratings": 4.8
+    },
+    {
+        "playerId": 5,
+        "name": "Ben Stokes",
+        "country": "England",
+        "image": "https://i.ibb.co.com/Mgw9b2t/d1de85120289423-Y3-Jvc-Cw4-Nzcs-Njg2-LDQx-Miwx-MDI.jpg",
+        "role": "All-Rounder",
+        "battingOrBowling": "All-Rounder",
+        "price": 140000,
+        "leftHandBat": false,
+        "ratings": 4.8
+    },
+    {
+        "playerId": 6,
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/Mgw9b2t/d1de85120289423-Y3-Jvc-Cw4-Nzcs-Njg2-LDQx-Miwx-MDI.jpg",
+        "role": "All-Rounder",
+        "battingOrBowling": "All-Rounder",
+        "price": 135000,
+        "leftHandBat": false,
+        "ratings": 4.8
+    }
+]

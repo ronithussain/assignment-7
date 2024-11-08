@@ -19,8 +19,7 @@ const Navbar = ({coins}) => {
                 <li>Teams</li>
                 <li>Schedules</li>
             </ul>
-               <button className='btn sm:mr-5 mt-3 sm:mt-0'> {coins} Coins <i className="fa-brands fa-bitcoin text-orange-600 text-2xl"></i></button>
-               <p> </p>
+               <button className='btn borders sm:mr-5 mt-3 sm:mt-0'> {coins} Coins <i className="fa-brands fa-bitcoin text-orange-600 text-2xl"></i></button>
             </div>
         </div>
     );
